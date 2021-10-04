@@ -6,7 +6,7 @@ A Python chatroom application with Tkinter GUI
 How to Run?
 Run the server.py script from the command line.
 
-Usage: python3 server.py <host> [-p PORT]
+Usage: python3 server.py 
 
 Arguments:
 
@@ -26,16 +26,7 @@ Arguments:
 
 host: Interface the server listens at. Can be a hostname, or an IP address.
 -p PORT: TCP port the server listens at (default 1060)
-For example:
 
-$ python3 client.py localhost
-Trying to connect to localhost:1060...
-Successfully connected to localhost:1060
-
-Your name:
-$ python3 client.py 127.0.0.1
-Trying to connect to 127.0.0.1:1060...
-Successfully connected to 127.0.0.1:1060
 
 Your name:
 Run multiple clients to chat in real-time!
